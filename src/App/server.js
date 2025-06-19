@@ -3,7 +3,7 @@
 import express from 'express';
 import http from 'http';
 import { Server } from 'socket.io';
-import { PORT } from './config';
+import { PORT } from './config.js';
 
 const app = express();
 const server = http.createServer(app);
